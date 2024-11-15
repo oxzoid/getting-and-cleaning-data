@@ -1,0 +1,16 @@
+# CodeBook
+
+## Overview
+This project processes data collected from the accelerometers of Samsung Galaxy S smartphones. The dataset contains records of various activities performed by subjects wearing the smartphone.
+
+## Variables
+- `subject`: Identifier of the subject (1-30).
+- `activity`: The activity performed, such as walking or sitting.
+- Remaining columns: The mean and standard deviation of various accelerometer and gyroscope readings, extracted and averaged per subject per activity.
+
+## Transformations
+1. Merged training and test datasets.
+2. Extracted measurements of mean and standard deviation.
+3. Applied descriptive activity names.
+4. Used descriptive labels for variables.
+5. Created a second, independent dataset with the average of each variable for each activity and subject.
