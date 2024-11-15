@@ -6,7 +6,7 @@ This project processes accelerometer data collected from Samsung Galaxy S smartp
 ## Files
 - `run_analysis.R`: Script for data processing.
 - `CodeBook.md`: Describes variables and transformations.
-- `tidy_data.txt`: The final tidy dataset.
+- `tidy_data.csv`: The final tidy dataset.
 - `README.md`: Project overview and instructions.
 
 ## How to Run
