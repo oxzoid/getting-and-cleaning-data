@@ -46,8 +46,7 @@ final_data <- tidy_data %>%
   group_by(subject, activity) %>%
   summarise(across(everything(), ~ mean(.x, na.rm = TRUE)), .groups = "drop")
 
-# Write to CSV file
-write.csv(final_data, "tidy_dataset.csv", row.names = FALSE)
-
+# Write to file
+write.table(final_data, "tidy_dataset.txt", row.name = FALSE)
 
 
